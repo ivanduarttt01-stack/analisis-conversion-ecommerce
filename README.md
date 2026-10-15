@@ -56,28 +56,10 @@ Estas recomendaciones son hipótesis de mejora; antes de escalarlas, deberían v
 - **SQL (PostgreSQL):** consultas de embudo y desempeño por canal.
 - **Git/GitHub:** documentación y control de versiones.
 
-## Estructura del repositorio
-
-```text
-├── data/
-│   ├── raw/                  # Base sintética generada por script
-│   └── data_dictionary.md
-├── docs/
-│   └── informe_ejecutivo.md
-├── sql/
-│   ├── 01_create_table.sql
-│   └── 02_funnel_analysis.sql
-├── src/
-│   ├── generate_data.py
-│   └── analysis.py
-├── outputs/                  # Tablas y gráficos creados al ejecutar el análisis
-├── requirements.txt
-└── README.md
-```
 
 ## Cómo reproducirlo
 
-Esta sección es opcional para quien visite el repositorio; sirve para mostrar que el análisis es reproducible.
+mostrar que el análisis es reproducible.
 
 ```bash
 pip install -r requirements.txt
@@ -85,11 +67,6 @@ python src/generate_data.py
 python src/analysis.py
 ```
 
-## Cómo describirlo en un CV
 
-**Proyecto de portafolio — Analista de Datos, E-commerce (caso simulado)**  
-Analicé 25.000 sesiones de compra con Python y SQL para identificar fricciones en el embudo de conversión. Detecté oportunidades en la experiencia móvil, transparencia de costos de envío y recuperación de carritos, y propuse experimentos medibles para mejorar conversiones.
 
-## Autor
 
-**Iván Duarte** — Proyecto de portafolio para posiciones de Analista de Datos.
